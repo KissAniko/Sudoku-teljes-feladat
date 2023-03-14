@@ -36,18 +36,42 @@ namespace sudokuGUI
                 txtNumber.Text = Convert.ToString(inputNumber);
             }
         }
+        
+        /* MÁSIK MEGOLDÁS:  
+        
+        private void btnPlus_Click(object sender, RoutedEventArgs e)
+        {
+            int meret = int.Parse(txtMeret.Text);
+            if (meret > 4)
+            {
+                txtMeret.Text = (meret - 1).ToString();
+            }
+        }  */
+        
+//--------------------------------------------------------------------------------------------------      
 
         private void btnMinus_Click(object sender, RoutedEventArgs e)
-        {
-            
+        {          
                 if (Convert.ToInt32(txtNumber.Text) > 4)
                 {
                     inputNumber = Convert.ToInt32(txtNumber.Text);
                     inputNumber--;
                     txtNumber.Text = Convert.ToString(inputNumber);
-                }
-            
+                }            
         }
+        
+        /* MÁSIK MEGOLDÁS 
+        
+        private void btnMinus_Click(object sender, RoutedEventArgs e)
+        {
+             int meret = int.Parse(txtMeret.Text);
+            if (meret < 9)
+            {
+                txtMeret.Text = (meret + 1).ToString();
+            }
+        }   */
+        
+//-------------------------------------------------------------------------------------------------
 
         private void txtNumber_ContextMenuClosing(object sender, ContextMenuEventArgs e)
         {
