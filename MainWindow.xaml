@@ -47,7 +47,7 @@
                  RenderTransformOrigin="-5.924,-4.694"
                  HorizontalContentAlignment="Center"
                  Text="4"
-                 IsReadOnly="true"/>
+                 IsReadOnly="True"/>
             
             
         <Label Content="Kezdőállapot:" 
