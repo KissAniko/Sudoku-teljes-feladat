@@ -36,6 +36,8 @@
                 RenderTransformOrigin="2.123,-1.392"
                 x:Name="btnMinus"
                 Click="btnMinus_Click"/>
+            
+            
         <TextBox 
             HorizontalAlignment="Left"
                  Margin="172,18,0,0" 
@@ -44,7 +46,10 @@
                  Width="22" Height="23" 
                  RenderTransformOrigin="-5.924,-4.694"
                  HorizontalContentAlignment="Center"
-                 Text="4"/>
+                 Text="4"
+                 IsReadOnly="true"/>
+            
+            
         <Label Content="Kezdőállapot:" 
                FontSize="12"
                HorizontalAlignment="Left" 
