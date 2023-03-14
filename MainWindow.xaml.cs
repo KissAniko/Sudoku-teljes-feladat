@@ -41,10 +41,10 @@ namespace sudokuGUI
         
         private void btnPlus_Click(object sender, RoutedEventArgs e)
         {
-            int meret = int.Parse(txtMeret.Text);
-            if (meret > 4)
+            int number = int.Parse(txtNumber.Text);
+            if (number > 4)
             {
-                txtMeret.Text = (meret - 1).ToString();
+                txtNumber.Text = (number - 1).ToString();
             }
         }  */
         
@@ -64,10 +64,10 @@ namespace sudokuGUI
         
         private void btnMinus_Click(object sender, RoutedEventArgs e)
         {
-             int meret = int.Parse(txtMeret.Text);
-            if (meret < 9)
+             int number = int.Parse(txtNumber.Text);
+            if (number < 9)
             {
-                txtMeret.Text = (meret + 1).ToString();
+                txtNumber.Text = (number + 1).ToString();
             }
         }   */
         
