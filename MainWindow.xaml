@@ -42,7 +42,9 @@
                  x:Name="txtNumber" 
                  VerticalAlignment="Top"
                  Width="22" Height="23" 
-                 RenderTransformOrigin="-5.924,-4.694"/>
+                 RenderTransformOrigin="-5.924,-4.694"
+                 HorizontalContentAlignment="Center"
+                 Text="4"/>
         <Label Content="Kezdőállapot:" 
                FontSize="12"
                HorizontalAlignment="Left" 
