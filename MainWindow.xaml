@@ -66,17 +66,12 @@
                  Height="27" Grid.ColumnSpan="2"
                  TextChanged="txtKezdoAllapot_TextChanged"/>
             
-        <Label Content="Hossz:" 
+        <Label Content="Hossz:0" 
                FontSize="12"
                HorizontalAlignment="Left"
                Margin="30,149,0,0" 
-               VerticalAlignment="Top" Width="63" Height="34"/>
-        <Label Content="0"
-               HorizontalAlignment="Left" 
-               Margin="85,149,0,11" 
-               RenderTransformOrigin="-0.52,-0.05"
-               Width="38"
-               x:Name="lbl"/>
+               VerticalAlignment="Top" Width="63" Height="34"
+               x:Name="lblHossz"/>
         <Button Content="Ellenőrzés"
                 HorizontalAlignment="Left" 
                 Margin="65,152,0,0" 
