@@ -57,12 +57,15 @@
                VerticalAlignment="Top" 
                Height="32" 
                Width="90"/>
+            
         <TextBox HorizontalAlignment="Left" 
                  Margin="37,106,0,0" 
-                 x:Name="txtKiiras" 
+                 x:Name="txtKezdoAllapot" 
                  VerticalAlignment="Top"
                  Width="454" 
-                 Height="27" Grid.ColumnSpan="2"/>
+                 Height="27" Grid.ColumnSpan="2"
+                 TextChanged="txtKezdoAllapot_TextChanged"/>
+            
         <Label Content="Hossz:" 
                FontSize="12"
                HorizontalAlignment="Left"
